@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Review-1/Review-1.iml" filepath="$PROJECT_DIR$/Review-1/Review-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Review-1-Task-4/Review-1-Task-4.iml" filepath="$PROJECT_DIR$/Review-1-Task-4/Review-1-Task-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-01-Core-IoC/Spring-01-Core-IoC.iml" filepath="$PROJECT_DIR$/Spring-01-Core-IoC/Spring-01-Core-IoC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-02-Core-Wiring/Spring-02-Core-Wiring.iml" filepath="$PROJECT_DIR$/Spring-02-Core-Wiring/Spring-02-Core-Wiring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-03-Core-DI/Spring-03-Core-DI.iml" filepath="$PROJECT_DIR$/Spring-03-Core-DI/Spring-03-Core-DI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-04-Abstraction/Spring-04-Abstraction.iml" filepath="$PROJECT_DIR$/Spring-04-Abstraction/Spring-04-Abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-05-Core-BeanScope/Spring-05-Core-BeanScope.iml" filepath="$PROJECT_DIR$/Spring-05-Core-BeanScope/Spring-05-Core-BeanScope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-06-SpringBoot-Demo/Spring-06-SpringBoot-Demo.iml" filepath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/Spring-06-SpringBoot-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/Spring-07-Spring-MVC-Controller.iml" filepath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/Spring-07-Spring-MVC-Controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-08-Spring-MVC-Core/Spring-08-Spring-MVC-Core.iml" filepath="$PROJECT_DIR$/Spring-08-Spring-MVC-Core/Spring-08-Spring-MVC-Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/Spring-09-Spring-Thymeleaf.iml" filepath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/Spring-09-Spring-Thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-framework.iml" filepath="$PROJECT_DIR$/.idea/spring-framework.iml" />
+    </modules>
+  </component>
+</project>

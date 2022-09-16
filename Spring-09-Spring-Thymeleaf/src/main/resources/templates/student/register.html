@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h2>welcome</h2>
+
+<!-- displaying value -->
+<h2 th:text="${students.get(0).firstName}"></h2>
+<h2 th:text="${students.get(0).lastName}"></h2>
+
+<!-- Concatenation-->
+<h2 th:text="${'Welcome '+students.get(0).firstName}"></h2>
+
+<!-- Link-->
+<a th:href="@{https://spring.io/}">Spring Home Page</a>
+<br>
+<a th:href="@{/student/welcome}">Link1</a>
+<br>
+<!-- Adding parameters to link -->
+<a th:href="@{/student/welcome(id=3)}">Link 2</a>
+<br>
+<a th:href="@{/student/welcome(id=${students.get(0).firstName})}">Link3</a>
+
+<!-- Iteration -->
+<ul>
+    <li th:each="student : ${students}" th:text="${student.firstName}"></li>
+</ul>
+
+</body>
+
+</html>
