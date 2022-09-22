@@ -21,7 +21,7 @@ public class MentorController {
         model.addAttribute("batchList",batchList);
         return "mentor/mentor-register";
     }
-
+    //
     @PostMapping("/confirm")
     public String showForm2(@ModelAttribute("mentor") Mentor mentor, Model model){
 
