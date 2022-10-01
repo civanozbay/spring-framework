@@ -3,7 +3,7 @@ package com.spring.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller // anootate the class with the @Controller stereotype annotation
+@Controller // annotate the class with the @Controller stereotype annotation
 public class HomeController {
     @RequestMapping("/home") //use @RequestMapping annotation to associate the action with an HTTP request path
     public String home(){
