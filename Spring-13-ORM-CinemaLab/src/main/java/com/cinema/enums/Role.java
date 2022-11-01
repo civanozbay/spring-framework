@@ -1,2 +1,5 @@
-package com.cinema.enums;public class Role {
+package com.cinema.enums;
+
+public enum Role {
+    USER
 }

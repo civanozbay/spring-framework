@@ -1,2 +1,5 @@
-package com.cinema.enums;public enum State {
+package com.cinema.enums;
+
+public enum State {
+    ACTIVE,DRAFT
 }

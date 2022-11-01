@@ -1,2 +1,5 @@
-package com.orm.enums;public enum Status {
+package com.orm.enums;
+
+public enum Status {
+    SUCCESS,FAILURE;
 }

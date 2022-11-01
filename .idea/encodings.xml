@@ -6,5 +6,9 @@
     <file url="file://$PROJECT_DIR$/Spring-08-Spring-MVC-Core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-12-ORM-OneToMany-ManyToMany/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java" charset="UTF-8" />
   </component>
 </project>

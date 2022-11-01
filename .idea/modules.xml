@@ -14,6 +14,10 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-08-Spring-MVC-Core/Spring-08-Spring-MVC-Core.iml" filepath="$PROJECT_DIR$/Spring-08-Spring-MVC-Core/Spring-08-Spring-MVC-Core.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/Spring-09-Spring-Thymeleaf.iml" filepath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/Spring-09-Spring-Thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-10-ORM-TableCreation/Spring-10-ORM-TableCreation.iml" filepath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/Spring-10-ORM-TableCreation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne/Spring-11-ORM-Mapping-OneToOne.iml" filepath="$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne/Spring-11-ORM-Mapping-OneToOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-12-ORM-OneToMany-ManyToMany/Spring-12-ORM-OneToMany-ManyToMany.iml" filepath="$PROJECT_DIR$/Spring-12-ORM-OneToMany-ManyToMany/Spring-12-ORM-OneToMany-ManyToMany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-13-ORM-CinemaLab/Spring-13-ORM-CinemaLab.iml" filepath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/Spring-13-ORM-CinemaLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-14-ORM-Queries/Spring-14-ORM-Queries.iml" filepath="$PROJECT_DIR$/Spring-14-ORM-Queries/Spring-14-ORM-Queries.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-framework.iml" filepath="$PROJECT_DIR$/.idea/spring-framework.iml" />
     </modules>
   </component>

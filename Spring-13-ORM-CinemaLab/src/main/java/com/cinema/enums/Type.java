@@ -1,2 +1,5 @@
-package com.cinema.enums;public enum Type {
+package com.cinema.enums;
+
+public enum Type {
+    PREMIER,REGULAR
 }

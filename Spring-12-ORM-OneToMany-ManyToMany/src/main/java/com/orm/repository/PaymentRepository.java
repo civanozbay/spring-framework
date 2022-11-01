@@ -1,2 +1,7 @@
-package com.orm.repository;public interface PaymentRepository {
+package com.orm.repository;
+
+import com.orm.entity.Payment;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PaymentRepository extends JpaRepository<Payment,Long> {
 }
