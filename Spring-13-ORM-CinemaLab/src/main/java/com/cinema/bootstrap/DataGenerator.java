@@ -16,7 +16,10 @@ public class DataGenerator implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         System.out.println("findByState: " + accountRepository.findByStateOrCountry("Kentucky","New York"));
-
+        System.out.println("findByAgeLessThanEqual: " + accountRepository.findByAgeLessThanEqual(30));
+        System.out.println("getAccounts : "+ accountRepository.getAccounts());
+        System.out.println("getAccountsLowerThanAge : " + accountRepository.getAccountsLowerThanAge(30));
+//        System.out.println("getContainingAccountsWithSpecificValue :  " + accountRepository.getContainingAccountsWithSpecificValue("a"));
 
     }
 }

@@ -11,7 +11,7 @@ import javax.persistence.*;
 @Getter
 @Setter
 @NoArgsConstructor
-@Table(name = "account_details ")
+@Table(name = "account_details")
 public class Account extends BaseEntity {
 
     private String name;

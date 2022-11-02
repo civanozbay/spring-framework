@@ -1,7 +1,7 @@
 package com.cinema.entity;
 
-import com.cydeo.enums.MovieState;
-import com.cydeo.enums.MovieType;
+import com.cinema.enums.MovieState;
+import com.cinema.enums.MovieType;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
