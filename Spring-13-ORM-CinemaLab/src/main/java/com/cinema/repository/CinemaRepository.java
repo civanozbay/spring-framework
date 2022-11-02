@@ -9,6 +9,9 @@ public interface CinemaRepository extends JpaRepository<Cinema, Long> {
 
     // ------------------- DERIVED QUERIES ------------------- //
 
+
+
+
     //Write a derived query to get cinema with a specific name
 
     //Write a derived query to read sorted the top 3 cinemas that contains a specific sponsored name
