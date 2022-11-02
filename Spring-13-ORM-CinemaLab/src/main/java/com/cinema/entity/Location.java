@@ -3,26 +3,23 @@ package com.cinema.entity;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
-import java.io.Serializable;
-import java.util.List;
+import javax.persistence.Entity;
+import java.math.BigDecimal;
 
 @Entity
 @Data
 @NoArgsConstructor
-public class Location {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+public class Location extends BaseEntity{
 
     private String name;
+    private BigDecimal latitude;
+    private BigDecimal longitude;
+    private String postalCode;
     private String country;
-    private String city;
     private String state;
-    private int postalCode;
+    private String city;
     private String address;
 
-    @OneToMany(mappedBy = "location")
-    private List<Cinema> cinemaList;
+
+
 }

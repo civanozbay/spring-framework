@@ -1,7 +1,7 @@
 package com.cinema.entity;
 
-import com.cinema.enums.State;
-import com.cinema.enums.Type;
+import com.cydeo.enums.MovieState;
+import com.cydeo.enums.MovieType;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -11,32 +11,28 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Entity
-@Data
 @NoArgsConstructor
-public class Movie {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+@Data
+public class Movie extends  BaseEntity{
 
     private String name;
-    private BigDecimal price;
-
-    @Enumerated(EnumType.STRING)
-    private Type type;
-
-    @Enumerated(EnumType.STRING)
-    private State state;
-
     @Column(columnDefinition = "DATE")
     private LocalDate releaseDate;
-
-    private int duration;
+    private Integer duration;
+    @Column(columnDefinition = "text")
     private String summary;
+    @Enumerated(EnumType.STRING)
+    private MovieType type;
+    @Enumerated(EnumType.STRING)
+    private MovieState state;
+    private BigDecimal price;
 
-    @OneToMany(mappedBy = "movie")
-    private List<MovieCinema> movieCinema;
 
-    @ManyToMany(mappedBy = "movie")
-    private List<Genre> genre;
+    @ManyToMany
+    @JoinTable(name = "movie_genre_rel",
+    joinColumns = @JoinColumn(name="movie_id"),
+    inverseJoinColumns = @JoinColumn(name = "genre_id"))
+    private List<Genre> genreList;
+
+
 }

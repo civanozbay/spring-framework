@@ -3,30 +3,28 @@ package com.cinema.entity;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
-import java.time.LocalDate;
-import java.util.List;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.ManyToOne;
+import java.time.LocalDateTime;
 
 @Entity
 @Data
-@Table(name = "movie_cinema")
 @NoArgsConstructor
-public class MovieCinema {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+public class MovieCinema extends BaseEntity{
 
     @Column(columnDefinition = "TIMESTAMP")
-    private LocalDate dateTime;
+    private LocalDateTime dateTime;
 
-    @OneToMany(mappedBy = "movieCinema")
-    private List<Ticket> ticketList;
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Movie movie;
 
     @ManyToOne(fetch = FetchType.LAZY)
     private Cinema cinema;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    private Movie movie;
+
+
+
 
 }
