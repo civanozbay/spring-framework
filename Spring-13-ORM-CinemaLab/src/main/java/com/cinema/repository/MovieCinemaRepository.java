@@ -3,11 +3,14 @@ package com.cinema.repository;
 import com.cinema.entity.MovieCinema;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.util.List;
+
 public interface MovieCinemaRepository extends JpaRepository<MovieCinema, Long> {
 
     // ------------------- DERIVED QUERIES ------------------- //
 
     //Write a derived query to read movie cinema with id
+//    List<MovieCinema> findBy
 
     //Write a derived query to count all movie cinemas with a specific cinema id
 
