@@ -23,7 +23,7 @@ public interface AccountRepository extends JpaRepository<Account, Long> {
     //Write a derived query to list all accounts between a range of ages
     List<Account> findByAgeBetween(int firstAge,int secondAge);
     //Write a derived query to list all accounts where the beginning of the address contains the keyword
-    List<Account> findByAddressContains(String pattern);
+    List<Account> findByAddressStartingWith(String pattern);
     //Write a derived query to sort the list of accounts with age
     List<Account> findByOrderByAge();
     // ------------------- JPQL QUERIES ------------------- //
@@ -43,8 +43,12 @@ public interface AccountRepository extends JpaRepository<Account, Long> {
     @Query(value = "select * from account_details where age < :age",nativeQuery = true)
     List<Account> getAccountsLowerThanAge(@Param("age") int age);
     //Write a native query to read all accounts that a specific value can be containable in the name, address, country, state city
-    @Query(value = "select * from account_details where name,address,country like concat(%,?1,%) ",nativeQuery = true)
-    List<Account> getContainingAccountsWithSpecificValue(String pattern);
+    @Query(value = "select * from account_details where name ILIKE concat('%',?1,'%') " +
+            "OR country ILIKE concat('%',?1,'%') " +
+            "OR address ILIKE concat('%',?1,'%')" +
+            "OR state ILIKE concat('%',?1,'%')" +
+            "OR city ILIKE concat('%',?1,'%')",nativeQuery = true)
+    List<Account> getContainingAccountsWithSpecificValue(@Param("pattern") String pattern);
     //Write a native query to read all accounts with an age lower than a specific value
     @Query(value = "select * from account_details where age < ?1",nativeQuery = true)
     List<Account> getAccountsAgeLowerThan(int age);
