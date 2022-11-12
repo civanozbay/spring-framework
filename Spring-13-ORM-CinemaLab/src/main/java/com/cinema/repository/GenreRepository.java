@@ -3,6 +3,7 @@ package com.cinema.repository;
 import com.cinema.entity.Genre;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -18,6 +19,6 @@ public interface GenreRepository extends JpaRepository<Genre, Long> {
     // ------------------- Native QUERIES ------------------- //
 
     //Write a native query that returns genres by containing name
-    @Query(value = "select name from genre where contains(name,%?1%)",nativeQuery = true)
-    List<Genre> getGenresContainName();
+    @Query(value = "select * from genre where name ILIKE concat('%',?1,'%')",nativeQuery = true)
+    List<Genre> getGenresContainName(@Param("name")String name);
 }
