@@ -18,6 +18,8 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-12-ORM-OneToMany-ManyToMany/Spring-12-ORM-OneToMany-ManyToMany.iml" filepath="$PROJECT_DIR$/Spring-12-ORM-OneToMany-ManyToMany/Spring-12-ORM-OneToMany-ManyToMany.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-13-ORM-CinemaLab/Spring-13-ORM-CinemaLab.iml" filepath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/Spring-13-ORM-CinemaLab.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-14-ORM-Queries/Spring-14-ORM-Queries.iml" filepath="$PROJECT_DIR$/Spring-14-ORM-Queries/Spring-14-ORM-Queries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-15-REST/Spring-15-REST.iml" filepath="$PROJECT_DIR$/Spring-15-REST/Spring-15-REST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-16-REST-Jackson/Spring-16-REST-Jackson.iml" filepath="$PROJECT_DIR$/Spring-16-REST-Jackson/Spring-16-REST-Jackson.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-framework.iml" filepath="$PROJECT_DIR$/.idea/spring-framework.iml" />
     </modules>
   </component>
