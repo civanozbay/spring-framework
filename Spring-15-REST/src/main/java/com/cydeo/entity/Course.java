@@ -1,8 +1,11 @@
 package com.cydeo.entity;
 
+//import jakarta.persistence.*;
 import lombok.Data;
 
 import javax.persistence.*;
+
+//import javax.persistence.*;
 
 @Data
 @Entity

@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/Spring-14-ORM-Queries/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-15-REST/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-16-REST-Jackson/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-17-REST-ConsumingApis/pom.xml" />
       </list>
     </option>
   </component>
