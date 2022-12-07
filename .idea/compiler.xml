@@ -47,7 +47,7 @@
       <module name="Spring-14-ORM-Queries" target="11" />
       <module name="Spring-15-REST" target="11" />
       <module name="Spring-16-REST-Jackson" target="11" />
-      <module name="Spring-17-REST-ConsumingApis" target="17" />
+      <module name="Spring-17-REST-ConsumingApis" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
