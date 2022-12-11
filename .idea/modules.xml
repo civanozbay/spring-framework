@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-15-REST/Spring-15-REST.iml" filepath="$PROJECT_DIR$/Spring-15-REST/Spring-15-REST.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-16-REST-Jackson/Spring-16-REST-Jackson.iml" filepath="$PROJECT_DIR$/Spring-16-REST-Jackson/Spring-16-REST-Jackson.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-17-REST-ConsumingApis/Spring-17-REST-ConsumingApis.iml" filepath="$PROJECT_DIR$/Spring-17-REST-ConsumingApis/Spring-17-REST-ConsumingApis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-18-REST-OpenApi3/Spring-18-REST-OpenApi3.iml" filepath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/Spring-18-REST-OpenApi3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-framework.iml" filepath="$PROJECT_DIR$/.idea/spring-framework.iml" />
     </modules>
   </component>
