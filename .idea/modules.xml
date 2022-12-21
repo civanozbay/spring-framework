@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-18-REST-OpenApi3/Spring-18-REST-OpenApi3.iml" filepath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/Spring-18-REST-OpenApi3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/Spring-19-REST-Security-Keycloak-LicenseApp.iml" filepath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/Spring-19-REST-Security-Keycloak-LicenseApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/Spring-19-REST-Security-Keycloak-OrganizationsApp.iml" filepath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/Spring-19-REST-Security-Keycloak-OrganizationsApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-20-AOP/Spring-20-AOP.iml" filepath="$PROJECT_DIR$/Spring-20-AOP/Spring-20-AOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-framework.iml" filepath="$PROJECT_DIR$/.idea/spring-framework.iml" />
     </modules>
   </component>
