@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/Spring-19-REST-Security-Keycloak-OrganizationsApp.iml" filepath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/Spring-19-REST-Security-Keycloak-OrganizationsApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-20-AOP/Spring-20-AOP.iml" filepath="$PROJECT_DIR$/Spring-20-AOP/Spring-20-AOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-21-UnitTesting-JUnit5/Spring-21-UnitTesting-JUnit5.iml" filepath="$PROJECT_DIR$/Spring-21-UnitTesting-JUnit5/Spring-21-UnitTesting-JUnit5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-22-UnitTesting-Mockito/Spring-22-UnitTesting-Mockito.iml" filepath="$PROJECT_DIR$/Spring-22-UnitTesting-Mockito/Spring-22-UnitTesting-Mockito.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-framework.iml" filepath="$PROJECT_DIR$/.idea/spring-framework.iml" />
     </modules>
   </component>
