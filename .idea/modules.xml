@@ -27,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-20-AOP/Spring-20-AOP.iml" filepath="$PROJECT_DIR$/Spring-20-AOP/Spring-20-AOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-21-UnitTesting-JUnit5/Spring-21-UnitTesting-JUnit5.iml" filepath="$PROJECT_DIR$/Spring-21-UnitTesting-JUnit5/Spring-21-UnitTesting-JUnit5.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-22-UnitTesting-Mockito/Spring-22-UnitTesting-Mockito.iml" filepath="$PROJECT_DIR$/Spring-22-UnitTesting-Mockito/Spring-22-UnitTesting-Mockito.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-23-UnitTesting-MockMvc/Spring-23-UnitTesting-MockMvc.iml" filepath="$PROJECT_DIR$/Spring-23-UnitTesting-MockMvc/Spring-23-UnitTesting-MockMvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-framework.iml" filepath="$PROJECT_DIR$/.idea/spring-framework.iml" />
     </modules>
   </component>
